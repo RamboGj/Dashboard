@@ -5,6 +5,7 @@ type User = {
     id: string;
     name: string;
     createdAt: string;
+    email: string;
 }
 
 type GetUsersResponse = {
